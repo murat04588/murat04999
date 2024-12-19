@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stil.css">
+    <title>BurgerKralığı</title>
+    <script src="https://kit.fontawesome.com/2fd56d2ce2.js" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery (Gerekli) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  
+  <!-- Popper.js (Gerekli) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  
+  <!-- Bootstrap JS (Gerekli) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md" id="navbar-color" role="navigation"> 
+        <div class="container">
+  
+            <!-- Logo (Sola Yerleştirildi) -->
+            <a class="navbar-brand" href="#">
+                <img src="img/logo1.jpg" alt="Logo" width="75px" height="70px">
+            </a>
+  
+            <!-- Navbar Toggler with image or icon -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span><i><img src="img/logo3.jpg" alt="Logo" width="30px"></i></span>
+                </button>
+           
+            <!-- Collapsible Navbar Links (Sağa Hizalanmış) -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Ürünler.html">Ürünler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="İçecekler.html">İçecekler</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Restoranlar.html">Restoranlar</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Hakkımızda.html" target="_self">Hakkımızda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+                <!-- Google Maps Harita -->
+
+
+                <section class="p-5 text-center iletisim">
+                    <div class="container">
+                        <a name="İletisim"></a>
+                        <h2 class="mb-5 font-weight-bold">Restoranlar</h2>
+                
+                            <hr class="ayrac"></i>
+
+
+                <div class="map-container harita">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.248389477899!2d28.9783584!3d41.0082376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7d60c12f9d1%3A0x35d2ef9b881321f5!2zS8Sxcm9wSWWxw5lZWJ3F!"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+                </div>
+            </div>
+        
+    
+    </div>
+    </section>
+
+
+
+
+    <section class="p-5 text-center iletisim">
+        <div class="container">
+            <a name="İletisim"></a>
+            <h2 class="mb-5 font-weight-bold">İletişim</h2>
+    
+                <hr class="ayrac"></i>
+    
+                <div class="row">
+                    <!-- İletişim Formu -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card-custom">
+                            <h4 class="text-center mb-4">İletişim Formu</h4>
+                            <form action="/submit-form" method="POST" class="contact-form">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Adınız:</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">E-posta Adresiniz:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Telefon Numaranız:</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Mesajınız:</label>
+                                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn">Gönder</button>
+                            </form>
+                        </div>
+                    </div>
+        
+                    <!-- İletişim Bilgileri -->
+                    <div class="col-md-6">
+                        <div class="card-custom">
+                            <h4 class="text-center mb-4">İletişim Bilgileri</h4>
+                            <div class="contact-info">
+                                <p><strong>Adres:</strong> Örnek Mahallesi, Örnek Sokak No: 123, İstanbul</p>
+                                <p><strong>Telefon:</strong> +90 123 456 7890</p>
+                                <p><strong>E-posta:</strong> iletisim@avukat.com</p>
+                            </div>
+        
+                            <h5 class="mt-4">Çalışma Saatlerimiz</h5>
+                            <p><strong>Pazartesi - Cuma:</strong> 09:00 - 18:00</p>
+                            <p><strong>Hafta Sonu:</strong> Kapalı</p>
+        
+                            <!-- Sosyal Medya Bağlantıları -->
+                            <div class="social-btns text-center mt-4">
+                                <a href="https://www.linkedin.com" target="_blank" class="btn btn-outline-primary">LinkedIn</a>
+                                <a href="https://www.instagram.com" target="_blank" class="btn btn-outline-danger">Instagram</a>
+                                <a href="https://www.twitter.com" target="_blank" class="btn btn-outline-danger twwt">twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </section>
+        
+
+
+
+
+    
+
+
+
+    <!--footer-->
+    
+    <footer style="background-color: #FFA500; color: white; padding: 20px 0; text-align: center;">
+        <div class="container">
+            
+            <div class="social-media-icons" style="margin-bottom: 15px;">
+                <a href="https://twitter.com" target="_blank" style="margin: 0 10px; color: white; text-decoration: none;">
+                    <i class="fab fa-twitter" style="font-size: 24px;"></i>
+                </a>
+                <a href="https://facebook.com" target="_blank" style="margin: 0 10px; color: white; text-decoration: none;">
+                    <i class="fab fa-facebook" style="font-size: 24px;"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" style="margin: 0 10px; color: white; text-decoration: none;">
+                    <i class="fab fa-instagram" style="font-size: 24px;"></i>
+                </a>
+            </div>
+    
+           
+            <div class="contact-info" style="margin-bottom: 15px;">
+                <p style="font-size: 16px;">Telefon: <a href="tel:+123456789" style="color: white; text-decoration: none;">+123 456 789</a></p>
+                <p style="font-size: 16px;">Adres: 1234 Sokak, Şehir, Ülke</p>
+            </div>
+    
+            <div class="copyright" style="font-size: 14px;">
+                <p>&copy; 2024 Şirket Adı. Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    
+        <!--footer-->
+    
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
